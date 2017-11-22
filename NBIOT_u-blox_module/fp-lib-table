@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name labka_footprints)(type KiCad)(uri /home/ia/KICAD_libraries/footprints/labka_footprints.pretty)(options "")(descr ""))
+)
