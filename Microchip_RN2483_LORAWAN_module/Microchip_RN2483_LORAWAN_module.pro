@@ -1,4 +1,4 @@
-update=St 22. listopad 2017, 19:01:48 CET
+update=St 22. listopad 2017, 19:48:51 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=/home/ia/KICAD_libraries/libraries/labka
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematics/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

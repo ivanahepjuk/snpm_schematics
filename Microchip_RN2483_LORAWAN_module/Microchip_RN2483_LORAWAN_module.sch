@@ -38,10 +38,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Lorawan SNPM module"
+Date "2017-11-22"
+Rev "XXX"
+Comp "created by i_a"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -119,7 +119,7 @@ U 1 1 5A15F19C
 P 5750 4150
 F 0 "SJ1" H 5850 4250 60  0000 C CNN
 F 1 "solder_jumper" H 5800 4050 60  0001 C CNN
-F 2 "lorawan_module:solderjumper_bottom" H 5750 4150 60  0001 C CNN
+F 2 "lorawan_module:solder_jumper_bott" H 5750 4150 60  0001 C CNN
 F 3 "" H 5750 4150 60  0001 C CNN
 	1    5750 4150
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5A15F22A
 P 6100 4250
 F 0 "SJ2" H 6200 4350 60  0000 C CNN
 F 1 "solder_jumper" H 6150 4150 60  0001 C CNN
-F 2 "lorawan_module:solderjumper_bottom" H 6100 4250 60  0001 C CNN
+F 2 "lorawan_module:solder_jumper_bott" H 6100 4250 60  0001 C CNN
 F 3 "" H 6100 4250 60  0001 C CNN
 	1    6100 4250
 	1    0    0    -1  
