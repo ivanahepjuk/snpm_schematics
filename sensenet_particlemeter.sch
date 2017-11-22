@@ -931,7 +931,7 @@ Text GLabel 11300 5300 3    60   Input ~ 0
 i2c_sda
 Text GLabel 11550 5300 3    60   Input ~ 0
 i2c_scl
-Text GLabel 5550 2700 2    60   Input ~ 0
+Text GLabel 6550 2700 2    60   Input ~ 0
 WIRELESS_reset
 $Comp
 L D_Schottky D3
@@ -2384,7 +2384,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1800 2050 1800
 Wire Wire Line
-	5300 2700 5550 2700
+	5300 2700 6550 2700
 Wire Wire Line
 	11350 7050 11600 7050
 Wire Wire Line
@@ -2888,4 +2888,20 @@ NoConn ~ 8550 10200
 NoConn ~ 8600 10550
 NoConn ~ 8050 10600
 NoConn ~ 8000 10200
+$Comp
+L Conn_01x01 J21
+U 1 1 5A15C8F9
+P 6650 2950
+F 0 "J21" H 6650 3050 50  0000 C CNN
+F 1 "CONN_01X01" V 6750 2950 50  0000 C CNN
+F 2 "SNPM:Pin_Header_Straight_1x01_Pitch1.00mm" H 6650 2950 50  0001 C CNN
+F 3 "" H 6650 2950 50  0001 C CNN
+	1    6650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2700 6350 2950
+Wire Wire Line
+	6350 2950 6450 2950
+Connection ~ 6350 2700
 $EndSCHEMATC
